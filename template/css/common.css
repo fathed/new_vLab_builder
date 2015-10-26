@@ -1,0 +1,29 @@
+/* CSS Document */
+
+body {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #F2F2F2 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	color: #383838
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+a:hover {
+/*color:#09F !important*/
+}
+li {
+	list-style: none !important
+}
+img {
+	padding-top: 20px;
+}
+title {
+	display: none !important
+}
+area{
+	display:none
+}

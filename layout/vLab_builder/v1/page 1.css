@@ -1,0 +1,72 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#imageListed {
+    float: left;
+    height: auto;
+    margin-left: 2.399349%;
+    margin-top: 25px;
+    clear: none;
+    width: 72.081346%;
+}
+
+#toolBar {
+    float: left;
+    height: 34px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    margin-right: 0px;
+}
+
+#thumbs {
+    float: left;
+    height: auto;
+    margin-left: 1.465059%;
+    margin-top: 25px;
+    clear: both;
+    width: 21.733997%;
+}
+
+#thumbList {
+    float: left;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+}
+
+#imageCont {
+    float: left;
+    height: 415px;
+    margin: 20px 0px 0px 0%;
+    clear: both;
+    width: 100%;
+    padding: 0px;
+}
+
+#titleText {
+    float: left;
+    height: 28px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+}
+
+#textCols {
+    float: left;
+    height: 52px;
+    margin: 20px 0px 0px 0%;
+    clear: both;
+    width: 100%;
+}
+

@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 21, 2015, 4:16:56 PM
+    Author     : gibbensj
+*/
+body{
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+}
+#projectName{
+    padding:10px;
+    border:1px solid black;
+}
+
+#status{
+    width: 100px;
+    border: 1px solid black;
+    padding: 5px;
+}
+#imageProcessor{
+    width:100%;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.titleText,.textCols{
+    border: 1px solid black;
+    padding:10px;
+}
+.pages{
+    margin: 10px;
+    border: 1px solid black;
+    padding:10px;
+    width: 920px;
+}
+.btn{
+    border: 1px solid black;
+    padding:10px;
+    width: 50px;
+    cursor: pointer;
+    float: left;
+}
+#imageCont{
+    position: relative;
+}
+#imageListed{
+    float: right;
+    width: 80%;
+}
+.hotspot{
+    position: absolute;
+     border: 1px solid black;
+     width: 100px;
+     height: 100px;
+
+     z-index: 100;
+     background-color: white;
+     opacity: .5;
+}
+
+#thumbs{
+    float:left;
+    clear: both;
+}
+
+.thumbR{
+    cursor:pointer;
+}
+.projectItem{
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.draggingIcon{
+    cursor: pointer;
+}
+
+
+#status{
+    width: 20px;
+    height:20px;
+    
+}
+/* navbar */
+#navBar{
+    width: 100%;
+    padding: 10px;
+    background-color: #282828;
+    color: white;
+}
+.fail{
+   color: red;
+}
+.success{
+   color: green;
+}
+[contentEditable=true]:empty:not(:focus):before{
+    content:attr(data-ph)
+}

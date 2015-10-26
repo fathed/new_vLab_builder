@@ -1,0 +1,132 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#backBtn {
+    float: left;
+    height: 34px;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: both;
+    width: 40px;
+    position: absolute;
+    top: 112px;
+    left: 27.018037%;
+}
+
+#container {
+    float: left;
+    height: 100%;
+    margin: 0px 0px 0px 0%;
+    clear: none;
+    width: 100%;
+}
+
+#nav {
+    float: left;
+    height: 62px;
+    margin: 0px 0px 0px 0%;
+    clear: none;
+    width: 100%;
+}
+
+#pages {
+    float: none;
+    height: 1061px;
+    margin: 0px auto;
+    clear: none;
+    width: 100%;
+}
+
+#titleText {
+    float: none;
+    height: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    clear: none;
+    width: 900px;
+    margin-right: auto;
+}
+
+#imageCont {
+    float: none;
+    height: 500px;
+    margin-left: auto;
+    margin-top: 30px;
+    clear: none;
+    width: 900px;
+    position: relative;
+    margin-right: auto;
+}
+
+#textCols {
+    float: none;
+    height: auto;
+    margin: 71px auto 0px;
+    clear: none;
+    width: 900px;
+}
+
+#hotspotCont {
+    float: left;
+    height: 500px;
+    margin: 0px 0px 0px 0%;
+    clear: none;
+    width: 900px;
+}
+
+#mainImage {
+    float: left;
+    width: 900px;
+    max-width: none;
+    height: 500px;
+    margin: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+#bottomShadow {
+    float: left;
+    width: 900px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+    clear: both;
+    color: rgb(0, 0, 0);
+    position: static;
+    top: 0px;
+    left: 0px;
+}
+
+#Title {
+    float: none;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: right;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0px auto;
+    clear: none;
+    min-height: 0px;
+}
+
+#text {
+    float: left;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0px;
+    clear: none;
+    min-height: 0px;
+}
+

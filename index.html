@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="lib/jquery/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+        <link href="lib/jquery/contextMenu/jquery.contextmenu.css" rel="stylesheet" type="text/css"/>
+        <style>
+            body{
+                font-family: Arial;
+            }
+            .titleText,.textCols{
+                padding: 5px;
+                border: 1px solid black;
+                width: 900px;
+            }
+            .textCols{
+                font-size: 1em;
+                padding: 10px;
+                -webkit-column-count: 2; /* Chrome, Safari, Opera */
+                -moz-column-count: 2; /* Firefox */
+                column-count: 2;
+            }
+
+            .imageCont{
+                position:relative;
+            }
+
+            /*img{
+                position: absolute;
+                width: 900px;
+                height: 500px; 
+            }*/
+            .hotspotCont{
+                position: absolute;
+                padding: 5px;
+                width: 900px;
+                height: 500px;
+
+            }
+            .hotspot{
+                position: absolute;
+                border: 1px solid black;
+                width: 100px;
+                height: 100px;
+
+                z-index: 100;
+                background-color: white;
+                opacity: .5;
+            }
+            .delBtn{
+                color:red;
+                cursor:pointer;
+            }
+            .theHotSpotTarget{
+                cursor: pointer;
+                height: 20px; 
+                font-size: 1.5em !important;
+                z-index: 200;
+                border-radius: 100px;
+
+            }
+            .thmb{
+                width: 80%;
+
+            }
+            #thumbnails{
+                float: left;
+                width: 19%;
+                height: 950px;
+                overflow-y: scroll; 
+            }
+            #imageListed{
+                float:right; 
+                width: 80%;
+            }
+
+
+            .fail{
+                color: red;
+            }
+            .success{
+                color: green;
+            }
+            [contentEditable=true]:empty:not(:focus):before{
+                content:attr(data-ph)
+            }
+        </style>
+    </head>
+    <body>
+        <div id="form">
+            <input type="text" placeholder="Name your project" id="projectNameField">
+            <input type="button" value="Build" id="formBuild">
+            <br>
+            <div id="listProjects"></div>
+        </div>
+        <div id="builder">
+            <div id="navBar">
+                <input type="button" value="Save" id="saveProject">
+                <input type="button" value="Build HTML" id="buildHtml">
+                <input type="button" value="New Slide" id="newSlide">
+                <input type="button" value="Rebuild Project" id="rebuildProject">
+                <input type="button" value="Load Images" id="loadImagesNow">
+            </div>
+            <div id="thumbnails">
+            </div>
+            <div id="imageListed">
+            </div>
+        </div>
+    </body>
+
+    <script src="lib/jquery/jquery.js" type="text/javascript"></script>
+    <script src="lib/jquery/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="lib/jquery/contextMenu/jquery.contextmenu.js" type="text/javascript"></script>
+    <script src="lib/helios/removeWhiteSpace.js" type="text/javascript"></script>
+    <script src="lib/helios/core/stripOutSpecialChar.js" type="text/javascript"></script>
+    <script src="lib/helios/specialCharacters_convert.js" type="text/javascript"></script>
+    <script src="lib/helios/specialCharacters_display.js" type="text/javascript"></script>
+    <script src="lib/helios/addHotSpots.js" type="text/javascript"></script>
+    <script src="lib/helios/core/init.js" type="text/javascript"></script>
+    <script src="lib/helios/core/getProjects.js" type="text/javascript"></script>
+    <script src="lib/helios/core/makeDirectory.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function () {
+            init();
+        });
+    </script>
+</html>

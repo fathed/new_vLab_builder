@@ -1,0 +1,142 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#imageListed {
+    float: left;
+    height: auto;
+    margin: 17px 0px 0px 25.675211%;
+    clear: both;
+    width: 72.081346%;
+}
+
+#toolBar {
+    float: left;
+    height: 34px;
+    margin: 0px 0px 0px 0%;
+    clear: none;
+    width: 100%;
+}
+
+#thumbs {
+    float: left;
+    height: auto;
+    margin-left: -96.319011%;
+    margin-top: 18px;
+    clear: none;
+    width: 21.733997%;
+    margin-right: 0%;
+}
+
+#thumbList {
+    float: left;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+}
+
+#imageCont {
+    float: left;
+    height: 415px;
+    margin: 20px 0px 0px 0%;
+    clear: both;
+    width: 100%;
+    padding: 0px;
+}
+
+#titleText {
+    float: left;
+    height: 28px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+}
+
+#textCols {
+    float: left;
+    height: 52px;
+    margin: 20px 0px 0px 0%;
+    clear: both;
+    width: 100%;
+}
+
+#builder {
+    float: left;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    margin-right: 0%;
+}
+
+#form {
+    float: left;
+    height: auto;
+    margin: 0px 0px 0px 0%;
+    clear: both;
+    width: 100%;
+}
+
+#formgroup {
+    float: left;
+    height: auto;
+    display: block;
+    text-align: left;
+    margin-left: 1.320616%;
+    margin-top: 31px;
+    clear: none;
+    width: 30.413151%;
+    min-height: auto;
+}
+
+#projectName {
+    float: none;
+    height: auto;
+    padding: 0px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+}
+
+#projNameLable {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding: 0.2em 0em;
+    display: block;
+}
+
+#buildProjectStart {
+    float: left;
+    height: auto;
+    font-size: 1em;
+    margin-left: 1.199101%;
+    margin-top: 53.375px;
+    clear: none;
+    width: auto;
+}
+
+#listProjects {
+    float: left;
+    height: 251px;
+    margin-left: 1.31947%;
+    margin-top: 30.625px;
+    clear: both;
+    width: 37.564197%;
+    margin-right: 0px;
+}
+

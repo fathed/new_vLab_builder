@@ -1,0 +1,122 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#pages {
+    float: left;
+    height: 649px;
+    margin: 0px 0px 0px 0%;
+    clear: none;
+    width: 100%;
+}
+
+#imageCont {
+    float: left;
+    height: 500px;
+    margin-left: 4.547643%;
+    margin-top: 6px;
+    clear: both;
+    width: 900px;
+}
+
+#textCols {
+    float: right;
+    height: 500px;
+    margin-left: 0px;
+    margin-top: 6px;
+    clear: none;
+    width: 26.876605%;
+    margin-right: 1.413472%;
+}
+
+#clearer {
+    float: left;
+    height: 12px;
+    margin: 19px 0px 0px 4.399762%;
+    clear: both;
+    width: 900px;
+}
+
+#titleText {
+    float: left;
+    height: auto;
+    margin: 0px 0px 0px 0%;
+    clear: none;
+    width: 100%;
+    min-height: 50px;
+}
+
+@media only screen and (max-width: 1920px) {
+    #pages {
+        margin-top: 16px;
+        margin-left: 0%;
+        clear: none;
+    }
+
+    #textCols {
+        width: 46.365294%;
+    }
+
+    #titleText {
+        width: 900px;
+        margin-top: 12px;
+        margin-left: 4.547453%;
+        clear: none;
+    }
+
+    #clearer {
+        margin-top: 7px;
+        margin-left: 4.399264%;
+        clear: both;
+    }
+
+    #imageCont {
+        margin-top: 6px;
+        margin-left: 4.547453%;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    #imageCont {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        clear: none;
+        margin-top: 6px;
+    }
+
+    #clearer {
+        margin-top: 19px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+    }
+
+    #textCols {
+        margin-left: auto;
+        float: none;
+        clear: none;
+        margin-top: 6px;
+        width: 900px;
+        margin-right: auto;
+    }
+
+    #pages {
+        height: 100%;
+    }
+
+    #titleText {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        clear: none;
+    }
+}
+
